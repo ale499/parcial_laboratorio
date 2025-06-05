@@ -1,11 +1,11 @@
 import { Table } from "react-bootstrap";
-import "./styles.scss";
+import "./styles.css";
 import { useEffect, useState } from "react";
 import { BsPencilSquare } from "react-icons/bs";
 import { Link } from "react-router-dom";
 import Provincia from "./Provincia";
 import { getProvinces } from "./FuncionesAPI";
-import "./styles.scss";
+import "./styles.css";
 import { Container } from "react-bootstrap";
 
 export default function TablaProvincias() {

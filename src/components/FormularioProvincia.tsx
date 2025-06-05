@@ -4,7 +4,7 @@ import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { getProvinceById, saveProvince } from "./FuncionesAPI";
 import Provincia from "./Provincia";
-import "./styles.scss";
+import "./styles.css";
 
 export default function FormularioProvincia() {
 
